@@ -22,8 +22,4 @@
         <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     </ItemGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\Arcaim.DI.Scanner\Arcaim.DI.Scanner.csproj" />
-    </ItemGroup>
-
 </Project>
