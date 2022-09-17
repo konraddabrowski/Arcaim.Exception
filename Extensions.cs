@@ -9,7 +9,10 @@ namespace Arcaim.Exception
     {
       services.AddTransient<ErrorHandlerMiddleware>();
       var mapper = System.Activator.CreateInstance(typeof(T)) as IExceptionToResponseMapper;
-      services.AddSingleton<IExceptionToResponseMapper>(mapper);
+      if (mapper is not null)
+      {
+        services.AddSingleton<IExceptionToResponseMapper>(mapper);
+      }
 
       return services;
     }
