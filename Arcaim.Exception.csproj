@@ -17,12 +17,12 @@
     <Title>Arcaim.Exception</Title>
     <PackageId>Arcaim.Exception</PackageId>
     <Company>Arcaim</Company>
-    <Version>7.0.0-preview7</Version>
+    <Version>7.0.8</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
